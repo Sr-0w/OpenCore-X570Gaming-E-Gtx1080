@@ -1,1 +1,1 @@
-# OpenCore-X570GamingE-Gtx1080
+# OpenCore X570Gaming-e Gtx1080
