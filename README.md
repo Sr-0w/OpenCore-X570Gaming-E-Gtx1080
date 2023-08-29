@@ -8,16 +8,16 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 
 |       Type       | Item                                   |
 |:----------------:|----------------------------------------|
-|     **CPU**      | [ AMD Ryzen 7 3700X 8-Core ]                     |
-| **Motherboard**  | [ Asus ROG STRIX X570-E GAMING ]    |
-|     **RAM**      | [ 16GB G.Skill,(2x8GB),3600MHz,DDR4,F4-3600C18-8GVK ]   |
-|     **GPU**      | [ Nvidia ROG Strix GTX 1080 8GB ] |
-|     **SSD**      | [ NVMe Samsung SSD 970 EVO Plus 1TB ]  |
-| **Power Supply** | [ Corsair 750w Full Modular ]  |
+|     **CPU**      | AMD Ryzen 7 3700X 8-Core                      |
+| **Motherboard**  | Asus ROG STRIX X570-E GAMING     |
+|     **RAM**      | 16GB G.Skill,(2x8GB),3600MHz,DDR4,F4-3600C18-8GVK   |
+|     **GPU**      | Nvidia ROG Strix GTX 1080 8GB  |
+|     **SSD**      | NVMe Samsung SSD 970 EVO Plus 1TB   |
+| **Power Supply** | Corsair 750w Full Modular  |
 |                  |                                        |
-|    **SMBIOS**    | [ MacPro7,1 ]                          |
-|    **MacOS**     | [ Ventura 13.5.1 ]                        |
-|   **Opencore**   | [ 0.9.3 ]                              |
+|    **SMBIOS**    | MacPro7,1                           |
+|    **MacOS**     | Ventura 13.5.1                       |
+|   **Opencore**   | 0.9.3                             |
 
 
 ## Bios Settings
@@ -56,14 +56,14 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 
 |        Features         |   Working?  |
 |:-----------------------:|------------ |
-|      2.5G Ethernet      | [   ✅    ] |
-|         AX Wifi         | [   ✅    ] |
-|     GPU Recognition     | [   ✅    ] |
-|   USB Ports & Mappings  | [   ✅    ] |
-|   CPU Power Management  | [   ✅    ] |
-|         iMessage        | [   ✅    ] |
-|GPU Hardware acceleration| [   ⛔️    ] |
-|        Bluetooth        | [   ⛔️    ] |
+|      2.5G Ethernet      |    ✅     |
+|         AX Wifi         |    ✅     |
+|     GPU Recognition     |    ✅     |
+|   USB Ports & Mappings  |    ✅     |
+|   CPU Power Management  |    ✅     |
+|         iMessage        |    ✅     |
+|GPU Hardware acceleration|    ⛔️     |
+|        Bluetooth        |    ⛔️     |
 
 * Note 1 - If you are using a 6 or Less Core Ryzen then go into the Config,plist and under PlatformInfo->Generic Change the ProcessorType from 0 to 1537, This will list your CPU info correctly inside About This Mac.
 
