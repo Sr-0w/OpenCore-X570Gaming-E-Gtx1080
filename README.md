@@ -1,3 +1,4 @@
+<p align="center">
 <img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48" /> 
 
 # EFI Ryzentosh • Asus ROG STRIX X570 Gaming-E • AMD Ryzen 7 3700X 8-Core • Nvidia ROG Strix GTX 1080 8GB
@@ -115,3 +116,4 @@ EXAMPLE
 
 
 Finally and as always, MAKE SURE YOU RESET YOUR NVRAM BEFORE BOOTING INTO THE NEW EFI
+</p>
