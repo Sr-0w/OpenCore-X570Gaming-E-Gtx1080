@@ -76,7 +76,7 @@ For OpenCore Using OpenCore Configurator add your details by modifying the follo
 
 <img src="https://i.imgur.com/sSquwww.png"/>
 
-IMPORTANT PATCH INFO TO SET THE CORRECT CORE COUNT FOR YOUR CPU
+## IMPORTANT PATCH INFO TO SET THE CORRECT CORE COUNT FOR YOUR CPU
 
 Patches are now universal across 15h, 16h, 17h, and 19h by utilizing the OpenCore kernel Quirk ProvideCurrentCpuInfo. OpenCore 0.7.1 or newer is required.
 
