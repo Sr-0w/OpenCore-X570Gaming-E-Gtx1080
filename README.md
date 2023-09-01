@@ -37,9 +37,9 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 | **Boot -> Secure boot -> Key Management ->**                     | [ Clear Secure Boot Keys ] |
 
 
-## OpenCore 0.9.3 EFI Update, 29th Aug 2023.
+## OpenCore 0.9.3 EFI
 
-## Changes made include,
+## Kexts included
 
 * Lilu 1.6.6,
 * VirtualSMC 1.3.2,
@@ -74,7 +74,7 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 Advanced -> APM Configuration -> Power On By PCIe -> Disabled
 For OpenCore Using OpenCore Configurator add your details by modifying the following
 
-<img src="https://i.imgur.com/mZeZ7ts.png" width="736" height="625" /> 
+<img src="https://i.imgur.com/sSquwww.png"/>
 
 IMPORTANT PATCH INFO TO SET THE CORRECT CORE COUNT FOR YOUR CPU
 
