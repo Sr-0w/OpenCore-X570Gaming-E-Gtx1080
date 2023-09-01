@@ -4,6 +4,9 @@
 
 Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 
+<img src="https://i.imgur.com/dAdnQ3X.png" />
+
+
 ## Hardware - Hackintosh Config
 
 |       Type       | Item                                   |
