@@ -54,6 +54,8 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 * LucyRTL8125Ethernet 1.1.0
 * SMCAMDProcessor 0.7.1
 
+## Working Features
+
 |        Features         |   Working?  |
 |:-----------------------:|------------ |
 |      2.5G Ethernet      |    ✅     |
