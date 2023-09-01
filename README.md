@@ -39,7 +39,7 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 
 ## OpenCore 0.9.3 EFI
 
-## Kexts included
+### Kexts included
 
 * Lilu 1.6.6,
 * VirtualSMC 1.3.2,
@@ -54,7 +54,7 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 * LucyRTL8125Ethernet 1.1.0
 * SMCAMDProcessor 0.7.1
 
-## Working Features
+### Working Features
 
 |        Features         |   Working?  |
 |:-----------------------:|------------ |
@@ -66,6 +66,8 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 |         iMessage        |    ✅     |
 |GPU Hardware acceleration|    ⛔️     |
 |        Bluetooth        |    ⛔️     |
+
+## Important informations
 
 * Note 1 - If you are using a 6 or Less Core Ryzen then go into the Config,plist and under PlatformInfo->Generic Change the ProcessorType from 0 to 1537, This will list your CPU info correctly inside About This Mac.
 
