@@ -84,7 +84,8 @@ For OpenCore Using OpenCore Configurator add your details by modifying the follo
 
 <img src="https://i.imgur.com/sSquwww.png"/>
 
-## IMPORTANT PATCH INFO TO SET THE CORRECT CORE COUNT FOR YOUR CPU
+### Important patch info to set the correct core count for your CPU
+
 
 Patches are now universal across 15h, 16h, 17h, and 19h by utilizing the OpenCore kernel Quirk ProvideCurrentCpuInfo. OpenCore 0.7.1 or newer is required.
 
@@ -95,7 +96,7 @@ This patch is enabled by default. Please ensure that you've added it to your cur
 
 Core Count patch needs to be modified to boot your system. Find the four algrey - Force cpuid_cores_per_package patches and alter the Replace value only.
 
-## See the table below for the values matching your CPU Core Count.
+### See the table below for the values matching your CPU Core Count.
 
 |        CoreCount      | Hexadecimal |
 |:---------------------:|------------ |
