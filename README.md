@@ -26,6 +26,19 @@ Step-by-step guide for setting up Ventura on an AMD Zen series CPU with the Asus
 
 Before attempting any modifications or configurations, it's imperative to familiarize yourself with the [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/). Understanding the basics will help you troubleshoot issues and ensure a smoother setup process.
 
+## 🛠️ Recommended Editing Tools
+
+### ProperTree
+For editing the core count hex values and other configurations in the plist files, we recommend using **ProperTree**. It's a versatile plist editor tailored for OpenCore configuration files.
+
+**Download ProperTree**: [GitHub Repository](https://github.com/corpnewt/ProperTree)
+
+### OpenCore Configurator
+To generate and edit platform information, use the **OpenCore Configurator**.
+
+**Download OpenCore Configurator**: [Official Website](https://mackie100projects.altervista.org/download-opencore-configurator/)
+
+**Note**: Always be cautious when using third-party tools. Ensure you have backups of your configuration files and verify any changes you make.
 
 ## 🔧 BIOS Configuration
 
