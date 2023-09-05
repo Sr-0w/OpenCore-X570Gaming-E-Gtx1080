@@ -284,7 +284,7 @@ EXAMPLE</p>
 
 
 
-<img align="center" src="https://i.imgur.com/BbGgsap.png" width="736" height="625" /> 
+<p align="center"><img src="https://i.imgur.com/BbGgsap.png" width="736" height="625" /> </p>
 
 
 <p align="center">Finally and as always, make sure you reset your NVRAM before booting into the new EFI</p>
