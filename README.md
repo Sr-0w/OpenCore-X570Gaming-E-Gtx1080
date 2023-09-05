@@ -22,6 +22,11 @@ Step-by-step guide for setting up Ventura on an AMD Zen series CPU with the Asus
 | **MacOS Version**| Ventura 13.5.1                                               |
 | **Opencore Version**| 0.9.3                                                      |
 
+## ⚠️ Important Notice
+
+Before attempting any modifications or configurations, it's imperative to familiarize yourself with the [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/). Understanding the basics will help you troubleshoot issues and ensure a smoother setup process.
+
+
 ## 🔧 BIOS Configuration
 
 Follow these steps to configure your BIOS:
