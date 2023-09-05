@@ -69,9 +69,15 @@ Find the `algrey - Force cpuid_cores_per_package` patches. Adjust only the Repla
 | 24    | [18]      |
 | 32    | [20]      |
 
+- `B8000000 0000` => `B8 <core count> 0000 0000`
+- `BA000000 0000` => `BA <core count> 0000 0000`
+- `BA000000 0090` => `BA <core count> 0000 0090`
+- `BA000000 00`   => `BA <core count> 0000 00`
+
 For a 6-core example:
 
 ![6-Core Processor Example](https://i.imgur.com/BbGgsap.png)
+
 
 ---
 
