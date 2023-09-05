@@ -6,6 +6,8 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 
 <p align="center"><img src="https://i.imgur.com/dAdnQ3X.png" />
 
+---
+
 ### Hardware - Hackintosh Config
 
 |       Type       | Item                                   |
@@ -20,6 +22,8 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 |    **SMBIOS**    | MacPro7,1                           |
 |    **MacOS**     | Ventura 13.5.1                       |
 |   **Opencore**   | 0.9.3                             |
+
+---
 
 ### BIOS Settings
 
@@ -54,33 +58,39 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 * LucyRTL8125Ethernet 1.1.0
 * SMCAMDProcessor 0.7.1
 
-#### Working Features
+#---
+
+### Working Features
 
 |        Features         |   Working?  |
 |:-----------------------:|------------ |
-|      2.5G Ethernet      |    :white_check_mark:     |
-|         AX Wifi         |    :white_check_mark:     |
-|     GPU Recognition     |    :white_check_mark:     |
-|   USB Ports & Mappings  |    :white_check_mark:     |
-|   CPU Power Management  |    :white_check_mark:     |
-|         iMessage        |    :white_check_mark:     |
-|GPU Hardware acceleration|    :x:     |
-|        Bluetooth        |    :x:     |
+|      2.5G Ethernet      |    ✔️     |
+|         AX Wifi         |    ✔️     |
+|     GPU Recognition     |    ✔️     |
+|   USB Ports & Mappings  |    ✔️     |
+|   CPU Power Management  |    ✔️     |
+|         iMessage        |    ✔️     |
+|GPU Hardware acceleration|    ❌     |
+|        Bluetooth        |    ❌     |
+
+---
 
 ### Important Notes
 
-**Note 1:** - If you are using a 6 or Less Core Ryzen then go into the Config,plist and under PlatformInfo->Generic Change the ProcessorType from 0 to 1537, This will list your CPU info correctly inside About This Mac.
+> **Note 1:** If you are using a 6 or Less Core Ryzen then go into the Config,plist and under PlatformInfo->Generic Change the ProcessorType from 0 to 1537, This will display your CPU information correctly inside About This Mac.
 
-**Note 2:** - The SmallTreeIntel82576.kext is now fully working as of Monterey 12.0 Beta 8
+> **Note 2:** The SmallTreeIntel82576.kext is now fully working as of Monterey 12.0 Beta 8
 
-**Note 3:** - BIOS SETTING CHANGE - Since Bios Revision 4010 Power On By PCIe can break shut down on some peoples builds so ensure the following setting is now set as disabled.
+> **Note 3:** BIOS SETTING CHANGE - Since Bios Revision 4010 Power On By PCIe can break shut down on some peoples builds so ensure the following setting is now set as disabled.
 
 Advanced -> APM Configuration -> Power On By PCIe -> Disabled
-For OpenCore Using OpenCore Configurator add your details by modifying the following
+For OpenCore, use the OpenCore Configurator to add your details by modifying the following
 
 <p align="center"><img src="https://i.imgur.com/sSquwww.png"/>
 
-#### Important Patch Information to set the correct core count for your CPU
+#---
+
+### Important Patch Information to set the correct core count for your CPU
 
 Patches are now universal across 15h, 16h, 17h, and 19h by utilizing the OpenCore kernel Quirk ProvideCurrentCpuInfo. OpenCore 0.7.1 or newer is required.
 
