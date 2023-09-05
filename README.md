@@ -36,7 +36,7 @@ For editing the core count hex values and other configurations in the plist file
 ### OpenCore Configurator
 To generate and edit platform information, use the **OpenCore Configurator**.
 
-**Download OpenCore Configurator**: [Official Website](https://mackie100projects.altervista.org/download-opencore-configurator/)
+**Download OpenCore Configurator**: [Download link](https://mackie100projects.altervista.org/download-opencore-configurator/)
 
 **Note**: Always be cautious when using third-party tools. Ensure you have backups of your configuration files and verify any changes you make.
 
