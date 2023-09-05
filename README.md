@@ -237,24 +237,54 @@
 
 <p align="center">Core Count patch needs to be modified to boot your system. Find the four algrey - Force cpuid_cores_per_package patches and alter the Replace value only.</p>
 
-### See the table below for the values matching your CPU Core Count.
+<H3 align="center">See the table below for the values matching your CPU Core Count.</H3>
 
-|        CoreCount      | Hexadecimal |
-|:---------------------:|------------ |
-|     **4 Core**        | [   04    ] |
-|     **6 Core**        | [   06    ] |
-|     **8 Core**        | [   08    ] |
-|     **12 Core**       | [   0C    ] |
-|     **16 Core**       | [   10    ] |
-|     **24 Core**       | [   18    ] |
-|     **32 Core**       | [   20    ] |
+<table align="center">
+  <thead>
+    <tr>
+      <th style="text-align: center;">CoreCount</th>
+      <th style="text-align: left;">Hexadecimal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>4 Core</strong></td>
+      <td style="text-align: left;">[ 04 ]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>6 Core</strong></td>
+      <td style="text-align: left;">[ 06 ]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>8 Core</strong></td>
+      <td style="text-align: left;">[ 08 ]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>12 Core</strong></td>
+      <td style="text-align: left;">[ 0C ]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>16 Core</strong></td>
+      <td style="text-align: left;">[ 10 ]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>24 Core</strong></td>
+      <td style="text-align: left;">[ 18 ]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>32 Core</strong></td>
+      <td style="text-align: left;">[ 20 ]</td>
+    </tr>
+  </tbody>
+</table>
 
-So for example, a user with a 6-core processor should use these Replace values: B8 06 0000 0000 / BA 06 0000 0000 / BA 06 0000 0090 / BA 06 0000 00
-EXAMPLE
+
+<p align="center">So for example, a user with a 6-core processor should use these Replace values: B8 06 0000 0000 / BA 06 0000 0000 / BA 06 0000 0090 / BA 06 0000 00
+EXAMPLE</p>
 
 
 
-<img src="https://i.imgur.com/BbGgsap.png" width="736" height="625" /> 
+<img align="center" src="https://i.imgur.com/BbGgsap.png" width="736" height="625" /> 
 
 
-Finally and as always, make sure you reset your NVRAM before booting into the new EFI
+<p align="center">Finally and as always, make sure you reset your NVRAM before booting into the new EFI</p>
