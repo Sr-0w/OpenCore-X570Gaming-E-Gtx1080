@@ -7,6 +7,7 @@ _Asus ROG STRIX X570 Gaming-E | AMD Ryzen 7 3700X | Nvidia ROG Strix GTX 1080_
 Step-by-step guide for setting up Ventura on an AMD Zen series CPU with the Asus ROG STRIX X570-E GAMING motherboard.
 
 ![Setup Image](https://i.imgur.com/dAdnQ3X.png)
+> Screenshot of Ventura Hackintosh
 
 ## 🖥️ Hardware Specification
 
@@ -62,6 +63,7 @@ Follow these steps to configure your BIOS:
 For OpenCore settings, refer to the OpenCore Configurator:
 
 ![Opencore Config Image](https://i.imgur.com/sSquwww.png)
+> Click on generate under Platformnfo with OpenCore Configurator
 
 ## 🛠️ CPU Core Patching
 
@@ -90,7 +92,7 @@ Find the `algrey - Force cpuid_cores_per_package` patches. Adjust only the Repla
 For a 6-core example:
 
 ![6-Core Processor Example](https://i.imgur.com/BbGgsap.png)
-
+> Modify using ProperTree
 
 ---
 
