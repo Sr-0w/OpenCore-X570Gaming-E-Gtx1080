@@ -1,14 +1,16 @@
+This README provides a detailed guide on setting up a Hackintosh system with specific hardware configurations using OpenCore. Before proceeding, especially if you are new to Hackintosh or the OpenCore bootloader, it's crucial to familiarize yourself with the official [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/). This guide will give you an overview of the setup process, but the OpenCore docs will provide a deep dive into each step.
+
 <p align="center"><img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48" /></p> 
 
 # EFI Ryzentosh • Asus ROG STRIX X570 Gaming-E • AMD Ryzen 7 3700X 8-Core • Nvidia ROG Strix GTX 1080 8GB
 
-Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
+This guide focuses on setting up the Ventura macOS version on a system powered by the Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 
 <p align="center"><img src="https://i.imgur.com/dAdnQ3X.png" />
 
 ---
 
-### Hardware - Hackintosh Config
+### Hardware Configuration for Hackintosh Setup
 
 |       Type       | Item                                   |
 |:----------------:|----------------------------------------|
@@ -58,7 +60,7 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 * LucyRTL8125Ethernet 1.1.0
 * SMCAMDProcessor 0.7.1
 
----
+#---
 
 ### Working Features
 
@@ -88,11 +90,11 @@ For OpenCore, use the OpenCore Configurator to add your details by modifying the
 
 <p align="center"><img src="https://i.imgur.com/sSquwww.png"/>
 
----
+#---
 
-### Important Patch Information to set the correct core count for your CPU
+### Important Patch Information: Setting the Correct Core Count
 
-Patches are now universal across 15h, 16h, 17h, and 19h by utilizing the OpenCore kernel Quirk ProvideCurrentCpuInfo. OpenCore 0.7.1 or newer is required.
+It's important to note that patches are now universal across 15h, 16h, 17h, and 19h by utilizing the OpenCore kernel Quirk ProvideCurrentCpuInfo. OpenCore 0.7.1 or newer is required.
 
 Make sure to enable this quirk or the system won't boot.
 
