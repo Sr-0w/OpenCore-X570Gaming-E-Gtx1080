@@ -58,7 +58,7 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 * LucyRTL8125Ethernet 1.1.0
 * SMCAMDProcessor 0.7.1
 
-#---
+---
 
 ### Working Features
 
@@ -88,7 +88,7 @@ For OpenCore, use the OpenCore Configurator to add your details by modifying the
 
 <p align="center"><img src="https://i.imgur.com/sSquwww.png"/>
 
-#---
+---
 
 ### Important Patch Information to set the correct core count for your CPU
 
