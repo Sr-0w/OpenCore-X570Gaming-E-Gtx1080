@@ -1,13 +1,12 @@
-<img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48" /> 
+<p align="center"><img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48" /></p> 
 
 # EFI Ryzentosh • Asus ROG STRIX X570 Gaming-E • AMD Ryzen 7 3700X 8-Core • Nvidia ROG Strix GTX 1080 8GB
 
 Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 
-<img src="https://i.imgur.com/dAdnQ3X.png" />
+<p align="center"><img src="https://i.imgur.com/dAdnQ3X.png" />
 
-
-## Hardware - Hackintosh Config
+### Hardware - Hackintosh Config
 
 |       Type       | Item                                   |
 |:----------------:|----------------------------------------|
@@ -17,19 +16,18 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 |     **GPU**      | Nvidia ROG Strix GTX 1080 8GB  |
 |     **SSD**      | NVMe Samsung SSD 970 EVO Plus 1TB   |
 | **Power Supply** | Corsair 750w Full Modular  |
-|                  |                                        |
+
 |    **SMBIOS**    | MacPro7,1                           |
 |    **MacOS**     | Ventura 13.5.1                       |
 |   **Opencore**   | 0.9.3                             |
 
-
-## Bios Settings
+### BIOS Settings
 
 |        Config                                                    | Status                     |
 |:----------------------------------------------------------------:|----------------------------|
-| **Enter BIOS -> Press Delete ->**                                | [ Enter Setup ]            |
-| **Exit ->**                                                      | [ Load Optimised Defaults ]|
-| **Ai Tweaker -> Ai Overclock Tuner ->**                          | [ D.O.C.P.]                |
+| **Enter BIOS -> Press Delete ->**                                | Enter Setup            |
+| **Exit ->**                                                      | Load Optimised Defaults|
+| **Ai Tweaker -> Ai Overclock Tuner ->**                          | D.O.C.P.                |
 | **Advanced -> APM Configuration -> Power On By PCIe ->**         | [ Disable ]                |
 | **Advanced -> PCI Subsystem Settings -> Above 4G Decoding ->**   | [ Enabled ]                |
 | **Advanced -> PCI Subsystem Settings -> Re-Size BAR Support ->** | [ Enabled ]                |
@@ -38,7 +36,6 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 | **Boot -> CSM -> Launch CSM ->**                                 | [ Disable ]                |
 | **Boot -> Secure boot -> OS Type ->**                            | [ Windows UEFI mode ]      |
 | **Boot -> Secure boot -> Key Management ->**                     | [ Clear Secure Boot Keys ] |
-
 
 ## OpenCore 0.9.3 EFI
 
@@ -57,34 +54,33 @@ Ventura install with Zen Series CPU and Asus ROG STRIX X570-E GAMING motherboard
 * LucyRTL8125Ethernet 1.1.0
 * SMCAMDProcessor 0.7.1
 
-### Working Features
+#### Working Features
 
 |        Features         |   Working?  |
 |:-----------------------:|------------ |
-|      2.5G Ethernet      |    ✅     |
-|         AX Wifi         |    ✅     |
-|     GPU Recognition     |    ✅     |
-|   USB Ports & Mappings  |    ✅     |
-|   CPU Power Management  |    ✅     |
-|         iMessage        |    ✅     |
-|GPU Hardware acceleration|    ⛔️     |
-|        Bluetooth        |    ⛔️     |
+|      2.5G Ethernet      |    :white_check_mark:     |
+|         AX Wifi         |    :white_check_mark:     |
+|     GPU Recognition     |    :white_check_mark:     |
+|   USB Ports & Mappings  |    :white_check_mark:     |
+|   CPU Power Management  |    :white_check_mark:     |
+|         iMessage        |    :white_check_mark:     |
+|GPU Hardware acceleration|    :x:     |
+|        Bluetooth        |    :x:     |
 
-## Important informations
+### Important Notes
 
-* Note 1 - If you are using a 6 or Less Core Ryzen then go into the Config,plist and under PlatformInfo->Generic Change the ProcessorType from 0 to 1537, This will list your CPU info correctly inside About This Mac.
+**Note 1:** - If you are using a 6 or Less Core Ryzen then go into the Config,plist and under PlatformInfo->Generic Change the ProcessorType from 0 to 1537, This will list your CPU info correctly inside About This Mac.
 
-* Note 2 - The SmallTreeIntel82576.kext is now fully working as of Monterey 12.0 Beta 8
+**Note 2:** - The SmallTreeIntel82576.kext is now fully working as of Monterey 12.0 Beta 8
 
-* Note 3 - BIOS SETTING CHANGE - Since Bios Revision 4010 Power On By PCIe can break shut down on some peoples builds so ensure the following setting is now set as disabled.
+**Note 3:** - BIOS SETTING CHANGE - Since Bios Revision 4010 Power On By PCIe can break shut down on some peoples builds so ensure the following setting is now set as disabled.
 
 Advanced -> APM Configuration -> Power On By PCIe -> Disabled
 For OpenCore Using OpenCore Configurator add your details by modifying the following
 
-<img src="https://i.imgur.com/sSquwww.png"/>
+<p align="center"><img src="https://i.imgur.com/sSquwww.png"/>
 
-### Important patch info to set the correct core count for your CPU
-
+#### Important Patch Information to set the correct core count for your CPU
 
 Patches are now universal across 15h, 16h, 17h, and 19h by utilizing the OpenCore kernel Quirk ProvideCurrentCpuInfo. OpenCore 0.7.1 or newer is required.
 
